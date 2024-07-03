@@ -1,0 +1,27 @@
+
+  .login-wrapper {
+    height: 100vh; /* Full height to center vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  .box {
+    width: 400px; /* Fixed width for the card */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  
+  .example-form {
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    margin-bottom: 15px; /* Space between form fields */
+  }
+  
+  .btn-block {
+    width: 100%; /* Full-width button */
+  }

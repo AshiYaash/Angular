@@ -23,7 +23,9 @@
   }
   
   .btn-block {
-    width: 100%; /* Full-width button */
+    width:50%; /* Full-width button */
+    display: block;
+    margin: auto;
   }
 
 

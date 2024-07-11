@@ -3,7 +3,7 @@
       <mat-card-header>
         <mat-card-title>REGISTRATION</mat-card-title>
       </mat-card-header>
-  <form class="example-form">
+  <form class="example-form"(ngSubmit)="onSubmit()">
         <mat-card-content>
           <mat-form-field class="example-full-width">
             <mat-icon matSuffix>person</mat-icon>
@@ -27,7 +27,7 @@
             
           </mat-form-field>
         </mat-card-content>
-        <button mat-stroked-button color="accent" class="btn-block">Signup</button>
+        <button mat-stroked-button color="accent" (click)="Signup()"class="btn-block">Login</button>
         </form>
           </mat-card>
   </div>

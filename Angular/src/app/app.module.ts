@@ -11,12 +11,22 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { ForgotComponent } from './components/forgot/forgot.component';
+import { HeaderMobileViewComponent } from './components/header-mobile-view/header-mobile-view.component';
+
+import {MatDividerModule} from '@angular/material/divider';
+import { HeaderComponent } from './components/header/header.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LogInComponent,
-    SignupComponent 
+    SignupComponent,
+    ForgotComponent,
+    HeaderMobileViewComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +38,11 @@ import { MatButtonModule } from '@angular/material/button';
     MatIconModule,
     MatButtonModule,
     MatFormFieldModule,
+    MatSlideToggleModule,
+    MatButtonModule,
+     MatDividerModule,
+       MatIconModule
+    
   ],
   providers: [
     provideAnimationsAsync()

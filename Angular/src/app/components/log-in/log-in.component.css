@@ -144,3 +144,10 @@ mat-form-field {
   transform: scale(1.05); /* Slightly enlarge the button */
 }
 
+.example-full-for-width{
+  padding: 10px;
+  cursor: pointer;
+}
+.example-full-for-width:hover{
+  color:#007BFF;
+}

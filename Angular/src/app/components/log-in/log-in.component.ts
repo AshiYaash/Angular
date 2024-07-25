@@ -8,6 +8,11 @@ import { Router } from '@angular/router';
   styleUrl: './log-in.component.css'
 })
 export class LogInComponent {
+forgot() {
+  console.log(this.form);
+ 
+  this.router.navigate(['/forgot'])
+}
 
   constructor(
     private router:Router,

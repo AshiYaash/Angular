@@ -19,6 +19,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HeaderComponent } from './components/header/header.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { HeaderComponent } from './components/header/header.component';
     ForgotComponent,
     HeaderMobileViewComponent,
     HeaderComponent,
+    
   ],
   imports: [
     BrowserModule,

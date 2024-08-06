@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   min-height: 100vh;
-  background: #e2e2e2;
+
 }
 .app-header {
   justify-content: space-between;
@@ -15,10 +15,15 @@ body {
   left: 0;
   right: 0;
   z-index: 2;
-  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 3px 5px -1px rgba(55, 49, 49, 0.2), 0 6px 10px 0 rgba(8, 8, 8, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
 }
 .login-wrapper {
-  height: 100%;
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8c3d3d;
 }
 .positronx {
   text-decoration: none;
@@ -54,7 +59,7 @@ body {
   border-radius: 10px;
   position: absolute;
   top: -10px;
-  background-image:url('https://wallpapercave.com/wp/X4Je8Dp.jpg');
+  background-color:rgba(73, 73, 53, 0.12) ;
   left: 0;
   transform: scale(.95);
   -webkit-transform: scale(.95);
@@ -93,3 +98,4 @@ body {
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

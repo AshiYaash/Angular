@@ -10,15 +10,19 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatStepperModule} from '@angular/material/stepper';
 
 
 import {MatDividerModule} from '@angular/material/divider';
 import { StepformRoutingModule } from './stepform-routing.module';
 import { AppRoutingModule } from '../app-routing.module';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    FormComponent
+  ],
   imports: [
     CommonModule,
     StepformRoutingModule,
@@ -34,7 +38,10 @@ import { AppRoutingModule } from '../app-routing.module';
     MatSlideToggleModule,
     MatButtonModule,
      MatDividerModule,
-       MatIconModule
+       MatIconModule,
+       MatButtonModule,
+       MatStepperModule,
+      
   ]
 })
 export class StepformModule { }

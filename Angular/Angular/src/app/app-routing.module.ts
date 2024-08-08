@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'forgot', component: ForgotComponent },
   { path: 'header-mobile-view', component:HeaderMobileViewComponent },
   { path: 'header', component: HeaderComponent },
+  
 ];
 
 @NgModule({

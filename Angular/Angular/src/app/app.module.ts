@@ -17,6 +17,7 @@ import { HeaderMobileViewComponent } from './components/header-mobile-view/heade
 
 import {MatDividerModule} from '@angular/material/divider';
 import { HeaderComponent } from './components/header/header.component';
+import { NgOtpInputModule } from  'ng-otp-input';
 
 
 
@@ -43,7 +44,8 @@ import { HeaderComponent } from './components/header/header.component';
     MatSlideToggleModule,
     MatButtonModule,
      MatDividerModule,
-       MatIconModule
+       MatIconModule,
+       NgOtpInputModule
     
   ],
   providers: [

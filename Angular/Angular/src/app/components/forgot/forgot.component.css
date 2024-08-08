@@ -1,10 +1,12 @@
 
 .login-wrapper {
+  margin: 0;
     height: 100vh; /* Full height to center vertically */
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f0f0f0; /* Light grey background */
+
   }
   
   .box {
@@ -18,11 +20,13 @@
   }
   
   .example-full-width {
+    cursor:pointer;
     width: 100%;
     margin-bottom: 15px; /* Space between form fields */
   }
   
   .btn-block {
+    margin: 10;
     width:50%; /* Full-width button */
     display: block;
     margin: auto;
@@ -144,3 +148,7 @@ mat-form-field {
   transform: scale(1.05); /* Slightly enlarge the button */
 }
 
+.onInputChange{
+  width: 50%;
+  padding: 30px;
+}

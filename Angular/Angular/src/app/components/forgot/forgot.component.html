@@ -9,8 +9,12 @@
                 <mat-icon aria-hidden="false" aria-label="my clock"matSuffix>access_time</mat-icon>
                 <input matInput placeholder="Username">
             </mat-form-field>
+            <mat-card-title>ENTER OTP</mat-card-title>
+
+<ng-otp-input class="onInputChange"  (onInputChange)="onOtpChange($event)"  [config]="{length:5}"></ng-otp-input>
+            
           </mat-card-content>
-          <button mat-stroked-button color="accent" (click)="Token()"class="btn-block">verify</button>
+          <button mat-stroked-button color="accent" (click)="Token()"class="btn-block ">verify</button>
           </form>
             </mat-card>
     </div>

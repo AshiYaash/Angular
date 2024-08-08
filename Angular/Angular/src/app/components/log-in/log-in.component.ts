@@ -11,7 +11,7 @@ export class LogInComponent {
 forgot() {
   console.log(this.form);
  
-  this.router.navigate(['/forgot'])
+  this.router.navigate(['/login'])
 }
 
   constructor(

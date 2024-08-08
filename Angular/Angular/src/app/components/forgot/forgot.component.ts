@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './forgot.component.css'
 })
 export class ForgotComponent {
+form() {
+throw new Error('Method not implemented.');
+}
+onOtpChange($event: string) {
+}
+  // this.ngOtpInputRef.setValue(yourValue);}
 Token() {
 throw new Error('Method not implemented.');
 }

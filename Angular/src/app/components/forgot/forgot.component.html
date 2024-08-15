@@ -1,0 +1,16 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <mat-card-header>
+          <mat-card-title>FORGOT PASSWORD</mat-card-title>
+        </mat-card-header>
+    <form class="example-form"(ngSubmit)="onSubmit()">
+          <mat-card-content>
+            <mat-form-field class="example-full-width">
+                <mat-icon aria-hidden="false" aria-label="my clock"matSuffix>access_time</mat-icon>
+                <input matInput placeholder="Username">
+            </mat-form-field>
+          </mat-card-content>
+          <button mat-stroked-button color="accent" (click)="Token()"class="btn-block">verify</button>
+          </form>
+            </mat-card>
+    </div>

@@ -1,0 +1,52 @@
+<!-- <div fxLayout="row-reverse"fxFlex="20" >
+    <div class="example-button-row">
+      <div class="example-flex-container">
+        <div class="example-button-container">
+           
+          
+         
+                <div class="example-flex-container"fxFlex="30">
+                  <div class="example-button-container">
+            <button mat-mini-fab aria-activedescendant="Example icon button with a home icon">
+                <mat-icon>home</mat-icon>
+              </button>
+
+        </div> -->
+
+        <section class="theme__container"(ngSubmit)="onSubmit()">
+          <!-- HEADER -->
+          <header fxLayout="row" fxLayoutAlign="space-between center">
+            <div class="header__left" fxLayout="row" fxLayoutAlign="start center">
+              <a href="#" class="header__logo">
+                <button mat-mini-fab aria-label="Example icon button with a menu icon">
+                  <mat-icon>menu</mat-icon>
+                            </button>
+                <img src="https://leloc90.github.io/loveTravel/assets/images/Logo-transparent.png" alt="Logo">
+              </a>
+              <ul class="hide-on-tablet-mobile header__navbar" fxLayout="row" fxLayoutAlign="start center">
+                <li class="navbar__item" *ngFor="let item of navItems">
+                  <a href="" class="navbar__link">{{ item.title }}</a>
+                  <ul class="header__subnav" *ngIf="item.subnav" fxLayout="column">
+                    <li class="subnav__item" *ngFor="let subItem of item.subnav">
+                      <a href="" class="subnav__link">{{ subItem.title }}</a>
+                      <span *ngIf="subItem.sticker" class="subnav__sticker-color-{{ subItem.stickerColor }}">{{ subItem.sticker }}</span>
+                      <i class='bx bxs-right-arrow' *ngIf="subItem.children"></i>
+                      <ul class="header__ex-subnav" *ngIf="subItem.children" fxLayout="column">
+                        <li class="subnav__item" *ngFor="let child of subItem.children">
+                          <a href="" class="subnav__link">{{ child.title }}</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="header__right">
+              <label for="sub-menu__check" class="header__menu-icon">
+                <i class='bx bx-menu'></i>
+              </label>
+            </div>
+          </header>
+          <input hidden type="checkbox" id="sub-menu__check" class="sub-menu__check">
+        </section>
+        

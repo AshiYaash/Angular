@@ -1,0 +1,154 @@
+
+.example-full-width {
+  display: flex;
+  width: 100%;
+}
+
+mat-form-field {
+  position: relative;
+}
+
+button[mat-icon-button] {
+  padding: 0;
+  margin-left: 7px;
+}
+
+
+.example-full-width {
+  width: 100%;
+}
+
+mat-form-field {
+  
+  position: relative;
+}
+
+.icon-centered-button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  
+  width: 50%;
+  
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icon-centered-button:hover {
+  background-color: #007BFF; /* Change to your desired color on hover */
+  color: white; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+
+
+.login-wrapper {
+  height: 100vh; /* Full height to center vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+   background-image:url('https://wallup.net/wp-content/uploads/2016/01/227405-nature-landscape-lake-reflection-calm-mountain-clouds-water.jpg');/* Light grey background */
+  /* opacity:0.10; */
+}
+
+
+.box {
+  width:400px; /* Fixed width for the card */
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.example-form {
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.btn-block {
+  width:50%; /* Full-width button */
+  display: block;
+  margin: auto;
+}
+
+mat-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Animation effect on hover */
+mat-card-title:hover {
+  transform: scale(1.1);
+  color: #007BFF; /* Change to a different color on hover */
+}
+
+/* Optional: Add a shadow effect */
+mat-card-title::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+mat-card-title:hover::after {
+  opacity: 1;
+}
+input[matInput] {
+  padding: 10px;
+  font-size: 16px;
+  max-width: 93%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Animation effect on focus */
+input[matInput]:focus {
+  border-color: #007BFF; /* Change border color on focus */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
+  /* Add a shadow effect */
+  outline: none; /* Remove default outline */
+}
+.example-full-width {
+width: 100%;
+}
+
+mat-form-field {
+position: relative;
+}
+
+mat-icon[matSuffix] {
+padding: 10;
+margin-left: 7%;
+}
+
+.btn-block {
+  width:50%; /* Full-width button */
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

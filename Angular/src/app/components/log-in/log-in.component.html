@@ -1,0 +1,33 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <mat-card-header>
+          <mat-card-title>LOGIN</mat-card-title>
+        </mat-card-header>
+    <form class="example-form"(ngSubmit)="onSubmit()">
+          <mat-card-content>
+            <mat-form-field class="example-full-width">
+              <mat-icon matSuffix>person</mat-icon>
+              <input matInput placeholder="Username">
+            </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput [type]="hide ? 'password' : 'text'" placeholder="Password">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon >{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+             
+              
+            </mat-form-field>
+          </mat-card-content>
+          <button mat-stroked-button color="accent" (click)="login()"class="btn-block">Login</button>
+         
+          
+       
+          </form>
+          <mat-label class="example-full-for-width"fxLayout="row">
+          <mat-icon>help</mat-icon> <mat-card-content fxLayoutAlign="left left"(click)="forgot()">Remember me!</mat-card-content>
+          </mat-label>
+        </mat-card>
+        
+    </div>
+
+    

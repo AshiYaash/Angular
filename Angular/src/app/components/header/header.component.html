@@ -13,16 +13,34 @@
 
         </div> -->
 
+
         <section class="theme__container"(ngSubmit)="onSubmit()">
           <!-- HEADER -->
-          <header fxLayout="row" fxLayoutAlign="space-between center">
-            <div class="header__left" fxLayout="row" fxLayoutAlign="start center">
-              <a href="#" class="header__logo">
-                <button mat-mini-fab aria-label="Example icon button with a menu icon">
-                  <mat-icon>menu</mat-icon>
-                            </button>
+          
+          <header fxLayout="row" fxFlex="100"> 
+                    
+            <div class="menu" fxLayout="row" fxLayoutAlign="left center"fxFlex="20">
+              <button mat-mini-fab aria-label="Example icon button with a menu icon"fxLayoutAlign="center center" >
+                <mat-icon>menu</mat-icon>
+              </button>
+            
+              <!-- <button mat-mini-fab aria-label="Example icon button with a menu icon"fxLayoutAlign="center center"fxFlex="18" >
+                <mat-icon>search</mat-icon>
+              </button> -->
+            </div>
+                       
+            <div class="header__left" fxLayout="row" fxLayoutAlign="center center"fxFlex="60">
+              <a href="#" class="header__logo"fxLayoutAlign="start end" fxFlex="10">                  
                 <img src="https://leloc90.github.io/loveTravel/assets/images/Logo-transparent.png" alt="Logo">
               </a>
+<!--details-->
+<div class="header-details"fxLayout="row" fxLayoutAlign="start center">
+  <span style="color:rgb(255, 255, 255)">Nest Fashion</span>
+                </div>
+
+                <div class="pincode-tn"></div>
+              </div>
+             
               <ul class="hide-on-tablet-mobile header__navbar" fxLayout="row" fxLayoutAlign="start center">
                 <li class="navbar__item" *ngFor="let item of navItems">
                   <a href="" class="navbar__link">{{ item.title }}</a>
@@ -40,7 +58,7 @@
                   </ul>
                 </li>
               </ul>
-            </div>
+            
             <div class="header__right">
               <label for="sub-menu__check" class="header__menu-icon">
                 <i class='bx bx-menu'></i>

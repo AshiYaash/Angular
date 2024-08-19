@@ -8,7 +8,7 @@
   /* Header Styles */
   header {
     background-color: #000000;
-    padding: 10px 0;
+    padding: 10px ;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -169,9 +169,15 @@
     font-family: Arial;
     animation: fadeIn 3s;
   }
-.menu{
-  padding: 6px;
+/* .menu{
+  padding: 0px;
+  margin: 3px;
   display: flex;
-  background-color: #000000;
-}
-  
+  background-color: #684848;
+} */
+ .box{
+  width: 100%;
+ 
+  padding: 0 20px;
+  box-sizing: border-box;
+} 

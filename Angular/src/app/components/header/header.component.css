@@ -181,3 +181,7 @@
   padding: 0 20px;
   box-sizing: border-box;
 } 
+.header__right {
+  display: flex;
+  align-items: right;
+}
